@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Kumbh+Sans:wght@400;700&family=Lexend+Deca:wght@400;700&family=Outfit:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: hsl(185, 75%, 39%);
+    font-size:" kumbh sans" , sans-serif ;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    max-width: 100vh;
+    background-image: url(/images/bg-pattern-bottom.svg);
+    background-repeat: repeat;
+    background-size: auto;
+    background-position: right 48vw bottom 40vh, left 45vw top 44vh;
+
+}
+
+.attribution { 
+    background: hsl(0, 0%, 100%);
+    font-size: 11px; 
+    position: absolute;
+    bottom: 0;
+    margin-left: 500px;
+}
+ 
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+}
+.container {
+    background-color: hsl(185, 75%, 39%);
+    max-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    width: 350px;
+    max-width: 350px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    border: 2px transparent;
+    padding: 10px;
+    position: absolute;
+    height: 320px;
+    max-height: 350px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); 
+    background-image: url(/images/bg-pattern-card.svg);   
+    background-position:top;
+    background-repeat: no-repeat;
+}
+.image{
+    margin-left: 36%;
+    margin-top: 26%;
+    border-radius: 50%;
+    width: 80px; /* or any desired width */
+    height: 80px; /* or any desired height */
+    border: 2px solid white ;
+   
+}
+h2 {
+    text-align: center;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    
+}
+span {
+    color: rgb(209, 207, 207);
+}
+h1 {
+    text-align: center;
+    font-size: 18px;
+    color: rgb(216, 215, 215);
+    
+}
+
+.card-info{
+    display: flex;
+    background-size: cover;
+    margin-top:54px;
+    margin-right: -75px;
+    height: 25px;
+    line-height: 1.8rem;
+
+}
+.d {
+    border-top: 1px solid hsl(0, 10%, 88%);
+    margin-top: 1.4rem;
+}
+.num {
+    color: black;
+    letter-spacing: .1rem;
+    padding-top: 2px;
+    padding-right: 50px;
+    margin-top: -40px;
+    font-size: 1.4rem;
+    margin-left: 1.2rem;
+    font-weight: bold; /* or any desired font weight */
+
+
+    
+    
+}
+
+.subnum {
+    display: block;
+    color: hsl(0, 0%, 59%);
+    font-weight: 300;
+    font-size: .9rem;
+    margin-left: 1.2rem;
+    letter-spacing:.1rem;
+}
+
+@media screen and (max-width : 390px){
+
+    .attribution {
+        margin-left: 18%;       
+    }
+    .card {
+        margin-right: 60%;
+        margin-left: 40%;
+
+        justify-content: center;
+        margin-left: 10px;
+    }
+}
